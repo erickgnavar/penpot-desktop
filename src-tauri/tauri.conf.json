@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "penpot-desktop",
+    "productName": "Penpot Desktop",
     "version": "0.0.0"
   },
   "tauri": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "tauri.desktop",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -55,11 +55,12 @@
     },
     "windows": [
       {
+        "url": "https://design.penpot.app",
         "fullscreen": false,
-        "height": 600,
+        "height": 720,
         "resizable": true,
-        "title": "penpot-desktop",
-        "width": 800
+        "title": "Penpot Desktop",
+        "width": 1280
       }
     ]
   }
